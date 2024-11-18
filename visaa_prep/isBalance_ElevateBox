@@ -1,0 +1,12 @@
+N=int(input())
+arr=list(map(int,input().split()))
+
+left=0
+total=sum(arr)
+res=[]
+for i in range(N):
+    right=total - left - arr[i]
+    res.append(abs(left - right))
+    left+=arr[i]
+print(" ".join(map(str,res)))
+    
