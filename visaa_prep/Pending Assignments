@@ -1,0 +1,6 @@
+X,Y,Z=map(int,input().split())
+Z=Z*24*60
+if X*Y <= Z:
+    print("YES")
+else:
+    print("NO")
