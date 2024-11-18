@@ -1,0 +1,11 @@
+N=int(input())
+if N>=3 and N<=5:
+    print("Spring")
+if N>=6 and N<=8:
+    print("Summer")
+if N>=9 and N<=11:
+    print("Autumn")
+if N==12 or N==1 or N==2:
+    print("Winter")
+if N<1 or N>12:
+    print("Invalid")
